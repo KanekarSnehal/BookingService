@@ -1,5 +1,3 @@
-const { StatusCodes } = require('http-status-code');
-
 class AppError extends Error {
     constructor(name, message, explanation, statusCode) {
         this.name = name;

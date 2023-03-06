@@ -1,4 +1,4 @@
-const express = require('expres');
+const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const { PORT } = require('./config/serverConfig');
